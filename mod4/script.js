@@ -60,9 +60,32 @@ for (var i = 0; i < names.length; i++) {
   // name in the loop.
   if (firstLetter === 'j') {
     byeSpeaker.speak(names[i]);
+    //byeSpeaker(names[i]);
   } else {
+
     helloSpeaker.speak(names[i]);
+    //helloSpeaker(names[i]);
   }
 }
 
 })();
+
+// function helloSpeaker(v){
+//   function speak(v) {
+//     console.log("Hello " + v);
+//   }
+// }
+
+// function byeSpeaker(v){
+//   console.log("Goodbye " + v);
+// }
+// var helloSpeaker = {
+//   speak: function(v) {
+//     console.log("Hello " + v);
+//   }
+// }
+// var byeSpeaker = {
+//   speak: function(v) {
+//     console.log("Goodbye " + v);
+//   }
+// }
